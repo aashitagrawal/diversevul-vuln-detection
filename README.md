@@ -42,6 +42,7 @@ Run all commands from the project folder.
 pip install -r requirements.txt
 python src/download_data.py   # downloads the dataset (~740 MB) into data/
 python src/explore.py         # Step 1: prints dataset statistics, saves charts to results/
+python src/clean_dedup.py     # Step 2: removes whitespace/comment duplicates -> data/diversevul_clean.json
 ```
 
 More steps will be added as the project grows.

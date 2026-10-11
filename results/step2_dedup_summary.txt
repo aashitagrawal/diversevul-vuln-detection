@@ -1,0 +1,12 @@
+=== Step 2: hidden duplicates (after removing whitespace + comments) ===
+Functions before cleaning:            330492
+Groups of duplicates found:           4397
+Extra copies inside those groups:     4540
+Groups with BOTH labels (conflicts):  900
+  functions in conflicting groups:    1815
+  of which labelled vulnerable:       901
+
+Functions after cleaning:             325052
+  vulnerable:                         18001
+  safe:                               307051
+Removed in total:                     5440
