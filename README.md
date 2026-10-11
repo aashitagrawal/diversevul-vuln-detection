@@ -44,11 +44,13 @@ python src/download_data.py   # downloads the dataset (~740 MB) into data/
 python src/explore.py         # Step 1: prints dataset statistics, saves charts to results/
 python src/clean_dedup.py     # Step 2: removes whitespace/comment duplicates -> data/diversevul_clean.json
 python src/splits.py          # prints the size of the random and unseen-project splits
+python src/rename_ids.py      # Step 4: shows identifier renaming on an example function
 ```
 
-**Step 3 (training)** runs on Google Colab: open `notebooks/train_codet5.ipynb` in Colab,
+**Steps 3 and 4 (training)** run on Google Colab: open `notebooks/train_codet5.ipynb` in Colab,
 choose a T4 GPU, and run all cells. It clones this repo, downloads and cleans the data,
-trains CodeT5-Small and prints the test results.
+trains CodeT5-Small and prints the test results. Set `SPLIT` (`random` / `unseen`) and
+`RENAME_IDS` (`False` / `True`) in the settings cell for the 4 runs.
 
 More steps will be added as the project grows.
 
