@@ -36,8 +36,12 @@ results/     tables and charts we produce
 
 ## How to run
 
+Run all commands from the project folder.
+
 ```bash
 pip install -r requirements.txt
+python src/download_data.py   # downloads the dataset (~740 MB) into data/
+python src/explore.py         # Step 1: prints dataset statistics, saves charts to results/
 ```
 
 More steps will be added as the project grows.
