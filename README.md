@@ -43,7 +43,12 @@ pip install -r requirements.txt
 python src/download_data.py   # downloads the dataset (~740 MB) into data/
 python src/explore.py         # Step 1: prints dataset statistics, saves charts to results/
 python src/clean_dedup.py     # Step 2: removes whitespace/comment duplicates -> data/diversevul_clean.json
+python src/splits.py          # prints the size of the random and unseen-project splits
 ```
+
+**Step 3 (training)** runs on Google Colab: open `notebooks/train_codet5.ipynb` in Colab,
+choose a T4 GPU, and run all cells. It clones this repo, downloads and cleans the data,
+trains CodeT5-Small and prints the test results.
 
 More steps will be added as the project grows.
 
