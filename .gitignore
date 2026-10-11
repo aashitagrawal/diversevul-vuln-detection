@@ -1,0 +1,26 @@
+# Dataset files are too big for GitHub - everyone downloads them with the script
+data/
+
+# The paper PDF belongs to its authors - we link to it in the README instead
+paper/
+
+# Trained models are too big for GitHub
+models/
+*.bin
+*.safetensors
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
