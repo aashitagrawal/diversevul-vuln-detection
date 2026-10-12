@@ -1,0 +1,10 @@
+{
+  "split": "unseen",
+  "rename_ids": false,
+  "threshold": 0.65,
+  "accuracy": 89.97,
+  "precision": 18.94,
+  "recall": 20.26,
+  "f1": 19.58,
+  "fpr": 5.56
+}
