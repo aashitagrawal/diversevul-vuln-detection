@@ -1,0 +1,10 @@
+{
+  "split": "random",
+  "rename_ids": true,
+  "threshold": 0.5,
+  "accuracy": 89.59,
+  "precision": 20.39,
+  "recall": 28.33,
+  "f1": 23.71,
+  "fpr": 6.70
+}
