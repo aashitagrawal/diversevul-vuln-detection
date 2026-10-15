@@ -32,6 +32,7 @@ data/        dataset files (not in git, too big)
 src/         Python scripts for steps 1, 2, 4, 5
 notebooks/   training notebook (runs on Colab)
 notebooks/runs/  the 4 executed training notebooks, with all outputs
+report/      project report (Word + PDF)
 results/     tables and charts we produce
 ```
 
@@ -57,7 +58,13 @@ Training settings: max 256 tokens per function, 3 epochs, learning rate 1e-4, ba
 
 ```bash
 python src/plot_results.py    # Step 5: results table + chart (results/f1_comparison.png)
+python src/report_figures.py  # training curves, metric comparison, pipeline diagram
 ```
+
+## Report
+
+The full project report is in [`report/Project_Report.docx`](report/Project_Report.docx)
+(PDF: [`report/Project_Report.pdf`](report/Project_Report.pdf)).
 
 ## Results
 
